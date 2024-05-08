@@ -58,6 +58,6 @@ jobs:
       if: ${{ endsWith(github.ref, '/main') && github.event_name != 'pull_request' }}
       run: |
         BUILD_ARG="--build-arg PASSWORD=penguin"
-        docker buildx build --platform=linux/amd64,linux/arm64 --push -t densukest/ubuntu-it-soft:v2 ${BUILD_ARG}  src
+        docker buildx build --platform=linux/amd64,linux/arm64 --push -t densukest/ubuntu-it-soft:v3 ${BUILD_ARG}  src
     - name: cleanup image
       run: docker image rm ${TESTIMAGE}

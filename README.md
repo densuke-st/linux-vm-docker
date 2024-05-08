@@ -139,3 +139,8 @@ Last login: Tue Mar 28 20:16:58 2023 from 172.23.0.1
 本リポジトリのmainブランチが更新されると、テスト後にイメージ作成・更新フェイズが動くようになっています。
 
 [![Docker Image CI](https://github.com/densuke-st/linux-vm-docker/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/densuke-st/linux-vm-docker/actions/workflows/CI.yml)
+
+# 変更履歴
+
+* v3
+    * Ubuntu 24.04ベース
